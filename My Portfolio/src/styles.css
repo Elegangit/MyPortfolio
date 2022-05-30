@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  );
+}
+
+a {
+  color: blueviolet;
+}
+
+a:hover {
+  color: mediumvioletred;
+}
+a:visited {
+  color: pink;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  font-size: 35px;
+  line-height: 50px;
+  color: rgb(243, 212, 235);
+}
+
+h2 {
+  color: rgb(243, 212, 235);
+  text-align: center;
+  margin: 0 auto;
+}
+.hero {
+  background: rgb(247, 214, 219);
+  text-align: center;
+  padding: 15px 25px;
+  border-radius: 35%;
+}
+h3 {
+  text-align: center;
+  color: #231d3c;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+}
+
+:root {
+  --branding-color: rgb(255, 177, 190);
+  --light-branding-color: #f7f3ff;
+  --box-shadow: rgba(2, 3, 26, 0.171) 0px 8px 8px 0;
+  padding: 15px 25px;
+  border-radius: 30%;
+  border-inline-width: 30px;
+}
+
+p {
+  background-color: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  border: var(--border: 1px);
+  --my-variable-name: blue;
+  padding: 15px 25px;
+  border-radius: 30%;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  color: orchid;
+  background: rgb(247, 214, 219);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: rgb(247, 214, 219);
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  background: rgb(247, 214, 219);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs p {
+  display: flex;
+  margin: 30px 0;
+  width: 50%;
+  page-width: 50%;
+}
+
+img {
+  margin: 0 auto;
+  box-shadow: purple;
+  outline-width: 20px;
+}
+
+footer {
+  color: navy;
+  text-align: center;
+  margin: 0 auto;
+}
+
+svg {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-evenly;
+  position: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
